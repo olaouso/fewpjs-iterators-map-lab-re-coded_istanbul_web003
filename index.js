@@ -1,5 +1,4 @@
-const tutorials = [
-  let sentences = tutorials.map( x => {
+const tutorials = tutorials.map( x => {
     let words = x.split(' ');
     let caseTitle = words.map (
       y => y[0].toUpperCase() + y.substr(1));
@@ -11,7 +10,6 @@ const tutorials = [
 
      });
      return sentences
-];
 
 const titleCased = () => {
   return tutorials
